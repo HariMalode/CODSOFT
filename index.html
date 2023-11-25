@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari's Project</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('impressive_background.jpg'); /* Replace with your impressive background image */
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            color: #fff; /* Set text color to be visible on the background */
+        }
+
+        header {
+            background-color: #4CAF50; /* Green color for the header background */
+            padding: 20px;
+            text-align: center;
+        }
+
+        #options-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh; /* Reduced height to allow space for header and footer */
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .option {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+            transition: transform 0.2s, background-color 0.2s, color 0.2s; /* Add smooth transitions for the hover effect */
+        }
+
+        .option:hover {
+            background-color: #fff; /* White background on hover */
+            color: #333; /* Dark text color on hover for better visibility */
+            transform: scale(1.05); /* Increase the size slightly on hover */
+        }
+
+        footer {
+            background-color: #333; /* Dark gray color for the footer background */
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hari's Project</h1>
+        <h2>Codsoft Internship Project</h2>
+    </header>
+
+    <div id="options-container">
+        <a href="project1.html" class="option">Project 1</a>
+        <a href="project2.html" class="option">Project 2</a>
+        <a href="project3.html" class="option">Project 3</a>
+    </div>
+
+    <footer>
+        &copy; 2023 Hari's Project. All rights reserved.
+    </footer>
+</body>
+</html>
