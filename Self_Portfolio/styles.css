@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* to adjust button position */
+.download-resume {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.contact-info a {
+    color: blue;
+    font-size: 0.8em;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.intro .bio {
+    flex: 1;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #343a40;
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #343a40;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.achievements ul {
+    padding-left: 20px;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.projects .project a {
+    color: #343a40;
+}
+
+.faq details {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #343a40;
+}
+
+.faq summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+
+.faq,
+footer {
+    margin-top: 30px;
+}
+
+/* Download button */
+.download-resume {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
